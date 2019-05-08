@@ -1,0 +1,19 @@
+/* ================================
+        Base css
+================================ */
+
+body{
+    background-color: $darkGreen;
+}
+
+ul{
+    li{
+        list-style-type: none;
+    }
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.25s;
+}

@@ -1,0 +1,23 @@
+/* ================================
+        Header css
+================================ */
+
+header{
+    background-color: $darkBLue;
+    padding: 30px 15px;
+    display: grid;
+    grid-template-columns: 80% auto;
+    font-size: rem-calc(16);
+    font-weight: 700;
+    color: $white;
+
+    article{
+        display: flex;
+
+        #burger{
+            justify-content: flex-end;
+            align-items: center;
+            font-size: rem-calc(20);
+        }
+    }
+}
