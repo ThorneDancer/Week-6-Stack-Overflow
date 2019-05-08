@@ -23,6 +23,105 @@
     </article>
 </header>
 
+<section>
+    <h1>What is the CSS Overflow Property?</h1>
+    <p>In CSS, very element on a page is rendered in a rectangular box. But what if the content meant to go inside the box can't fit? The CSS overflow property allows you to specify how you would like that handled.</p>
+    <h2>The Overflow property has 4 values:</h2>
+    <ul>
+        <li>- visible (the default property)</li>
+        <li>- hidden</li>
+        <li>- scroll</li>
+        <li>- auto</li>
+    </ul>
+    <!-- <img src="img/hero/water.png" alt="waterflow"> -->
+</section>
+
+<section>
+    <h1>visible</h1>
+    <p>with this property, the content goes beyond the box.</p>
+    <p>(this is usually not the move)</p>
+    <article>
+        <h5>CODE</h5>
+        <ul>
+            <li>.box{</li>
+            <li>overflow: visible;</li>
+            <li>}</li>
+        </ul>
+    </article>
+    <article>
+        <h5>BROWSER</h5>
+        <div>
+            <img src="img/example/flow.jpg" alt="Water over Rocks">
+            <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat toast, water.</p>
+        </div>
+    </article>
+</section>
+
+<section>
+    <h1>hidden</h1>
+    <p>This property literally hides any content that extends beyond the box.</p>
+    <p>WARNING: the content hidden this way is completely inaccessible</p>
+    <article>
+        <h5>CODE</h5>
+        <ul>
+            <li>.box{</li>
+            <li>overflow: hidden;</li>
+            <li>}</li>
+        </ul>
+    </article>
+    <article>
+        <h5>BROWSER</h5>
+        <div>
+            <img src="img/example/flow.jpg" alt="Water over Rocks">
+            <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat toast, water.</p>
+        </div>
+    </article>
+</section>
+
+<section>
+    <h1>Scroll</h1>
+    <p>This hides the content outside the box, but it offers scrollbars to scroll inside the box and view the content.</p>
+    <p>Keep in mind that you will always get both horizontal + vertical scrollbars no matter what, even if the content requires only one scrollbar.</p>
+    <article>
+        <h5>CODE</h5>
+        <ul>
+            <li>.box{</li>
+            <li>overflow: scroll;</li>
+            <li>}</li>
+        </ul>
+    </article>
+    <article>
+        <h5>BROWSER</h5>
+        <div>
+            <img src="img/example/flow.jpg" alt="Water over Rocks">
+            <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat toast, water.</p>
+        </div>
+    </article>
+</section>
+
+<section>
+    <h1>auto</h1>
+    <p>This functions similarly to the scroll value, but only surfaces scrollbars if you need them.</p>
+    <article>
+        <h5>CODE</h5>
+        <ul>
+            <li>.box{</li>
+            <li>overflow: auto;</li>
+            <li>}</li>
+        </ul>
+    </article>
+    <article>
+        <h5>BROWSER</h5>
+        <div>
+            <img src="img/example/flow.jpg" alt="Water over Rocks">
+            <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat toast, water.</p>
+        </div>
+    </article>
+</section>
+
+<footer>
+    <p>designed by Sai Kannekanti</p>
+</footer>
 
 </body>
 </html>

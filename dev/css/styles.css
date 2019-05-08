@@ -11,6 +11,17 @@ html {
 /* ================================
         Base css
 ================================ */
+body {
+  background-color: #2C514C; }
+
+ul li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.25s; }
+
 /* ================================
         Normalize css
 ================================ */
@@ -322,6 +333,13 @@ template {
 /* ================================
         Typography css
 ================================ */
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0; }
+
 /* ================================
         Buttons css
 ================================ */
@@ -334,6 +352,21 @@ template {
 /* ================================
         Header css
 ================================ */
+header {
+  background-color: #122932;
+  padding: 30px 15px;
+  display: grid;
+  grid-template-columns: 80% auto;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff; }
+  header article {
+    display: flex; }
+    header article #burger {
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 1.25rem; }
+
 /* ================================
         Footer css
 ================================ */
