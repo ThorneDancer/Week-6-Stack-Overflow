@@ -1,3 +1,14 @@
 /* ================================
         Footer css
 ================================ */
+footer{
+    background-color: $darkBLue;
+    color: $white;
+    padding: 25px 10px;
+    text-align: center;
+
+    p{
+        font-size: rem-calc(19);
+        font-weight: 300;
+    }
+}
