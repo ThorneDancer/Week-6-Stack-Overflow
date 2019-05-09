@@ -1,45 +1,44 @@
 /* ================================
         Hero css
 ================================ */
-
-#hero-section{
-    text-align: center;
+#hero-section {
     color: $white;
+    text-align: center;
 
-    h1{
+    h1 {
         font-size: rem-calc(29);
         font-weight: 600;
         line-height: rem-calc(39);
         padding: 30px 25px;
     }
 
-    p{
+    p {
         font-weight: 300;
         line-height: rem-calc(22);
         padding: 0 30px 31px;
     }
 
-    h2{
+    h2 {
         font-size: rem-calc(17);
         font-weight: 600;
         padding: 9px 0;
     }
 
-    ul{
-        li{
-            text-align: left;
-            padding: 9px 60px;
+    ul {
+        li {
             font-size: rem-calc(17);
             font-weight: 300;
+            padding: 9px 60px;
+            text-align: left;
         }
     }
 }
 
-#hero-image{
+#hero-image {
     background-image: url("../img/hero/water.png");
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 240px;
     margin: -110px 0 45px;
 }

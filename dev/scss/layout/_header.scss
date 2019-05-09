@@ -1,23 +1,21 @@
 /* ================================
         Header css
 ================================ */
-
-header{
+header {
     background-color: $darkBLue;
-    padding: 30px 15px;
+    color: $white;
     display: grid;
-    grid-template-columns: 80% auto;
     font-size: rem-calc(16);
     font-weight: 700;
-    color: $white;
+    grid-template-columns: 80% auto;
+    padding: 30px 15px;
 
-    nav{
+    nav {
+        align-items: center;
         display: flex;
         justify-content: flex-end;
-        align-items: center;
 
-        #burger{
-
+        #burger {
             font-size: rem-calc(20);
         }
     }

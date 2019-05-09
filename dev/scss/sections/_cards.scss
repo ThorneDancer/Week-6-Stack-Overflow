@@ -6,11 +6,11 @@
     margin: 20px 0;
 
     .title {
-        text-align: center;
         color: $white;
+        line-height: rem-calc(22);
         margin: 60px 0 30px;
         padding: 0 30px;
-        line-height: rem-calc(22);
+        text-align: center;
 
         h1 {
             margin-bottom: 20px;
@@ -19,15 +19,15 @@
 }
 
 .code {
+    background-color: $darkGrey;
+    border: 1px solid $borderGrey;
+    border-radius: 10px;
     margin: 0 15px 15px;
     padding: 12px 0 5px 15px;
-    background-color: $darkGrey;
-    border-radius: 10px;
-    border: 1px solid $borderGrey;
 
     h5 {
-        font-size: rem-calc(10);
         color: $textGrey;
+        font-size: rem-calc(10);
         font-weight: 300;
         margin-bottom: 10px;
     }
@@ -36,8 +36,8 @@
         font-family: 'Roboto Mono', monospace;
 
         li {
-            margin-bottom: 7px;
             color: $white;
+            margin-bottom: 7px;
 
             span {
                 color: $textOrange;
@@ -51,97 +51,97 @@
 }
 
 .browser-visible {
+    background-color: $white;
+    border: 1px solid $borderGrey;
+    border-radius: 10px;
     margin: 0 15px 60px;
     padding: 12px 0 105px 15px;
-    background-color: $white;
-    border-radius: 10px;
-    border: 1px solid $borderGrey;
 
     h5 {
-        font-size: rem-calc(10);
         color: $textGrey;
+        font-size: rem-calc(10);
         font-weight: 300;
         margin-bottom: 10px;
     }
 
     #visible {
-        border-radius: 10px;
         border: 1px solid $black;
+        border-radius: 10px;
         height: 195px;
-        padding: 15px 25px 0 15px;
         margin: 30px 50px 30px 25px;
         overflow: visible;
+        padding: 15px 25px 0 15px;
     }
 }
 
 .browser-hidden {
+    background-color: $white;
+    border: 1px solid $borderGrey;
+    border-radius: 10px;
     margin: 0 15px 60px;
     padding: 12px 0 5px 15px;
-    background-color: $white;
-    border-radius: 10px;
-    border: 1px solid $borderGrey;
 
     h5 {
-        font-size: rem-calc(10);
         color: $textGrey;
+        font-size: rem-calc(10);
         font-weight: 300;
         margin-bottom: 10px;
     }
 
     #hidden {
-        border-radius: 10px;
         border: 1px solid $black;
+        border-radius: 10px;
         height: 195px;
-        padding: 15px 15px 0 15px;
         margin: 30px 50px 30px 25px;
         overflow: hidden;
+        padding: 15px 15px 0;
     }
 }
 
 .browser-scroll {
+    background-color: $white;
+    border: 1px solid $borderGrey;
+    border-radius: 10px;
     margin: 0 15px 60px;
     padding: 12px 0 5px 15px;
-    background-color: $white;
-    border-radius: 10px;
-    border: 1px solid $borderGrey;
 
     h5 {
-        font-size: rem-calc(10);
         color: $textGrey;
+        font-size: rem-calc(10);
         font-weight: 300;
         margin-bottom: 10px;
     }
 
     #scroll {
-        border-radius: 10px;
         border: 1px solid $black;
+        border-radius: 10px;
         height: 195px;
-        padding: 15px 15px 0 15px;
         margin: 30px 50px 30px 25px;
         overflow: scroll;
+        padding: 15px 15px 0;
     }
 }
 
 .browser-auto {
+    background-color: $white;
+    border: 1px solid $borderGrey;
+    border-radius: 10px;
     margin: 0 15px 60px;
     padding: 12px 0 5px 15px;
-    background-color: $white;
-    border-radius: 10px;
-    border: 1px solid $borderGrey;
 
     h5 {
-        font-size: rem-calc(10);
         color: $textGrey;
+        font-size: rem-calc(10);
         font-weight: 300;
         margin-bottom: 10px;
     }
 
     #auto {
-        border-radius: 10px;
         border: 1px solid $black;
+        border-radius: 10px;
         height: 195px;
-        padding: 15px 15px 0 15px;
         margin: 30px 50px 30px 25px;
         overflow: auto;
+        padding: 15px 15px 0;
     }
 }

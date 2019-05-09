@@ -1,29 +1,28 @@
 /* ================================
         Base css
 ================================ */
-
-body{
+body {
     background-color: $darkGreen;
 }
 
-ul{
-    li{
+ul {
+    li {
         list-style-type: none;
     }
 }
 
-a{
-    text-decoration: none;
+a {
     display: inline-block;
+    text-decoration: none;
     transition: 0.25s;
 }
 
-.full-grid{
+.full-grid {
     display: grid;
-    grid-template-columns: 10px auto 10px;
     grid-template-areas: ". item .";
+    grid-template-columns: 10px auto 10px;
 
-    .full-grid-item{
+    .full-grid-item {
         grid-area: item;
     }
 }

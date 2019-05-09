@@ -18,14 +18,14 @@ ul li {
   list-style-type: none; }
 
 a {
-  text-decoration: none;
   display: inline-block;
+  text-decoration: none;
   transition: 0.25s; }
 
 .full-grid {
   display: grid;
-  grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". item ."; }
+  grid-template-areas: ". item .";
+  grid-template-columns: 10px auto 10px; }
   .full-grid .full-grid-item {
     grid-area: item; }
 
@@ -361,16 +361,16 @@ h1, h2, h3, h4, h5, h6, p, ul {
 ================================ */
 header {
   background-color: #122932;
-  padding: 30px 15px;
+  color: #fff;
   display: grid;
-  grid-template-columns: 80% auto;
   font-size: 1rem;
   font-weight: 700;
-  color: #fff; }
+  grid-template-columns: 80% auto;
+  padding: 30px 15px; }
   header nav {
+    align-items: center;
     display: flex;
-    justify-content: flex-end;
-    align-items: center; }
+    justify-content: flex-end; }
     header nav #burger {
       font-size: 1.25rem; }
 
@@ -390,8 +390,8 @@ footer {
         Hero css
 ================================ */
 #hero-section {
-  text-align: center;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
   #hero-section h1 {
     font-size: 1.8125rem;
     font-weight: 600;
@@ -406,16 +406,16 @@ footer {
     font-weight: 600;
     padding: 9px 0; }
   #hero-section ul li {
-    text-align: left;
-    padding: 9px 60px;
     font-size: 1.0625rem;
-    font-weight: 300; }
+    font-weight: 300;
+    padding: 9px 60px;
+    text-align: left; }
 
 #hero-image {
   background-image: url("../img/hero/water.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 240px;
   margin: -110px 0 45px; }
 
@@ -426,30 +426,30 @@ footer {
   background-color: #4F7A74;
   margin: 20px 0; }
   .card-sections .title {
-    text-align: center;
     color: #fff;
+    line-height: 1.375rem;
     margin: 60px 0 30px;
     padding: 0 30px;
-    line-height: 1.375rem; }
+    text-align: center; }
     .card-sections .title h1 {
       margin-bottom: 20px; }
 
 .code {
-  margin: 0 15px 15px;
-  padding: 12px 0 5px 15px;
   background-color: #323232;
+  border: 1px solid #979797;
   border-radius: 10px;
-  border: 1px solid #979797; }
+  margin: 0 15px 15px;
+  padding: 12px 0 5px 15px; }
   .code h5 {
-    font-size: 0.625rem;
     color: #838383;
+    font-size: 0.625rem;
     font-weight: 300;
     margin-bottom: 10px; }
   .code ul {
     font-family: 'Roboto Mono', monospace; }
     .code ul li {
-      margin-bottom: 7px;
-      color: #fff; }
+      color: #fff;
+      margin-bottom: 7px; }
       .code ul li span {
         color: #DB4545; }
 
@@ -457,77 +457,77 @@ footer {
   text-indent: 25px; }
 
 .browser-visible {
-  margin: 0 15px 60px;
-  padding: 12px 0 105px 15px;
   background-color: #fff;
+  border: 1px solid #979797;
   border-radius: 10px;
-  border: 1px solid #979797; }
+  margin: 0 15px 60px;
+  padding: 12px 0 105px 15px; }
   .browser-visible h5 {
-    font-size: 0.625rem;
     color: #838383;
+    font-size: 0.625rem;
     font-weight: 300;
     margin-bottom: 10px; }
   .browser-visible #visible {
-    border-radius: 10px;
     border: 1px solid #000;
+    border-radius: 10px;
     height: 195px;
-    padding: 15px 25px 0 15px;
     margin: 30px 50px 30px 25px;
-    overflow: visible; }
+    overflow: visible;
+    padding: 15px 25px 0 15px; }
 
 .browser-hidden {
-  margin: 0 15px 60px;
-  padding: 12px 0 5px 15px;
   background-color: #fff;
+  border: 1px solid #979797;
   border-radius: 10px;
-  border: 1px solid #979797; }
+  margin: 0 15px 60px;
+  padding: 12px 0 5px 15px; }
   .browser-hidden h5 {
-    font-size: 0.625rem;
     color: #838383;
+    font-size: 0.625rem;
     font-weight: 300;
     margin-bottom: 10px; }
   .browser-hidden #hidden {
-    border-radius: 10px;
     border: 1px solid #000;
+    border-radius: 10px;
     height: 195px;
-    padding: 15px 15px 0 15px;
     margin: 30px 50px 30px 25px;
-    overflow: hidden; }
+    overflow: hidden;
+    padding: 15px 15px 0; }
 
 .browser-scroll {
-  margin: 0 15px 60px;
-  padding: 12px 0 5px 15px;
   background-color: #fff;
+  border: 1px solid #979797;
   border-radius: 10px;
-  border: 1px solid #979797; }
+  margin: 0 15px 60px;
+  padding: 12px 0 5px 15px; }
   .browser-scroll h5 {
-    font-size: 0.625rem;
     color: #838383;
+    font-size: 0.625rem;
     font-weight: 300;
     margin-bottom: 10px; }
   .browser-scroll #scroll {
-    border-radius: 10px;
     border: 1px solid #000;
+    border-radius: 10px;
     height: 195px;
-    padding: 15px 15px 0 15px;
     margin: 30px 50px 30px 25px;
-    overflow: scroll; }
+    overflow: scroll;
+    padding: 15px 15px 0; }
 
 .browser-auto {
-  margin: 0 15px 60px;
-  padding: 12px 0 5px 15px;
   background-color: #fff;
+  border: 1px solid #979797;
   border-radius: 10px;
-  border: 1px solid #979797; }
+  margin: 0 15px 60px;
+  padding: 12px 0 5px 15px; }
   .browser-auto h5 {
-    font-size: 0.625rem;
     color: #838383;
+    font-size: 0.625rem;
     font-weight: 300;
     margin-bottom: 10px; }
   .browser-auto #auto {
-    border-radius: 10px;
     border: 1px solid #000;
+    border-radius: 10px;
     height: 195px;
-    padding: 15px 15px 0 15px;
     margin: 30px 50px 30px 25px;
-    overflow: auto; }
+    overflow: auto;
+    padding: 15px 15px 0; }
