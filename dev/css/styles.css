@@ -367,11 +367,11 @@ header {
   font-size: 1rem;
   font-weight: 700;
   color: #fff; }
-  header article {
-    display: flex; }
-    header article #burger {
-      justify-content: flex-end;
-      align-items: center;
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    header nav #burger {
       font-size: 1.25rem; }
 
 /* ================================
@@ -414,4 +414,120 @@ footer {
 #hero-image {
   background-image: url("../img/hero/water.png");
   background-size: cover;
-  background-position: center; }
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 240px;
+  margin: -110px 0 45px; }
+
+/* ================================
+        Visible css
+================================ */
+.card-sections {
+  background-color: #4F7A74;
+  margin: 20px 0; }
+  .card-sections .title {
+    text-align: center;
+    color: #fff;
+    margin: 60px 0 30px;
+    padding: 0 30px;
+    line-height: 1.375rem; }
+    .card-sections .title h1 {
+      margin-bottom: 20px; }
+
+.code {
+  margin: 0 15px 15px;
+  padding: 12px 0 5px 15px;
+  background-color: #323232;
+  border-radius: 10px;
+  border: 1px solid #979797; }
+  .code h5 {
+    font-size: 0.625rem;
+    color: #838383;
+    font-weight: 300;
+    margin-bottom: 10px; }
+  .code ul {
+    font-family: 'Roboto Mono', monospace; }
+    .code ul li {
+      margin-bottom: 7px;
+      color: #fff; }
+      .code ul li span {
+        color: #DB4545; }
+
+.indent {
+  text-indent: 25px; }
+
+.browser-visible {
+  margin: 0 15px 60px;
+  padding: 12px 0 105px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #979797; }
+  .browser-visible h5 {
+    font-size: 0.625rem;
+    color: #838383;
+    font-weight: 300;
+    margin-bottom: 10px; }
+  .browser-visible #visible {
+    border-radius: 10px;
+    border: 1px solid #000;
+    height: 195px;
+    padding: 15px 25px 0 15px;
+    margin: 30px 50px 30px 25px;
+    overflow: visible; }
+
+.browser-hidden {
+  margin: 0 15px 60px;
+  padding: 12px 0 5px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #979797; }
+  .browser-hidden h5 {
+    font-size: 0.625rem;
+    color: #838383;
+    font-weight: 300;
+    margin-bottom: 10px; }
+  .browser-hidden #hidden {
+    border-radius: 10px;
+    border: 1px solid #000;
+    height: 195px;
+    padding: 15px 15px 0 15px;
+    margin: 30px 50px 30px 25px;
+    overflow: hidden; }
+
+.browser-scroll {
+  margin: 0 15px 60px;
+  padding: 12px 0 5px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #979797; }
+  .browser-scroll h5 {
+    font-size: 0.625rem;
+    color: #838383;
+    font-weight: 300;
+    margin-bottom: 10px; }
+  .browser-scroll #scroll {
+    border-radius: 10px;
+    border: 1px solid #000;
+    height: 195px;
+    padding: 15px 15px 0 15px;
+    margin: 30px 50px 30px 25px;
+    overflow: scroll; }
+
+.browser-auto {
+  margin: 0 15px 60px;
+  padding: 12px 0 5px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #979797; }
+  .browser-auto h5 {
+    font-size: 0.625rem;
+    color: #838383;
+    font-weight: 300;
+    margin-bottom: 10px; }
+  .browser-auto #auto {
+    border-radius: 10px;
+    border: 1px solid #000;
+    height: 195px;
+    padding: 15px 15px 0 15px;
+    margin: 30px 50px 30px 25px;
+    overflow: auto; }

@@ -20,9 +20,9 @@
         <article>
             <p>The CSS Overflow Property</p>
         </article>
-        <article>
+        <nav>
             <i class="fas fa-bars" id="burger"></i>
-        </article>
+        </nav>
     </header>
 
     <section class="full-grid" id="hero-section">
@@ -42,22 +42,24 @@
 
     <section id="hero-image"></section>
 
-    <section class="full-grid">
+    <section class="full-grid card-sections">
         <section class="full-grid-item">
-            <h1>visible</h1>
-            <p>with this property, the content goes beyond the box.</p>
-            <p>(this is usually not the move)</p>
-            <article>
+            <article class="title">
+                <h1>visible</h1>
+                <p>with this property, the content goes beyond the box.</p>
+                <p>(this is usually not the move)</p>
+            </article>
+            <article class="code">
                 <h5>CODE</h5>
                 <ul>
-                    <li>.box{</li>
-                    <li>overflow: visible;</li>
+                    <li><span>.box</span>{</li>
+                    <li class="indent">overflow: visible;</li>
                     <li>}</li>
                 </ul>
             </article>
-            <article>
+            <article class="browser-visible">
                 <h5>BROWSER</h5>
-                <div>
+                <div id="visible">
                     <img src="img/example/flow.jpg" alt="Water over Rocks">
                     <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat
                         toast, water.</p>
@@ -66,22 +68,24 @@
         </section>
     </section>
 
-    <section class="full-grid">
+    <section class="full-grid card-sections">
         <section class="full-grid-item">
-            <h1>hidden</h1>
-            <p>This property literally hides any content that extends beyond the box.</p>
-            <p>WARNING: the content hidden this way is completely inaccessible</p>
-            <article>
+            <article class="title">
+                <h1>hidden</h1>
+                <p>This property literally hides any content that extends beyond the box.</p>
+                <p>WARNING: the content hidden this way is completely inaccessible</p>
+            </article>
+            <article class="code">
                 <h5>CODE</h5>
                 <ul>
-                    <li>.box{</li>
-                    <li>overflow: hidden;</li>
+                    <li><span>.box</span>{</li>
+                    <li class="indent">overflow: hidden;</li>
                     <li>}</li>
                 </ul>
             </article>
-            <article>
+            <article class="browser-hidden">
                 <h5>BROWSER</h5>
-                <div>
+                <div id="hidden">
                     <img src="img/example/flow.jpg" alt="Water over Rocks">
                     <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat
                         toast, water.</p>
@@ -90,22 +94,24 @@
         </section>
     </section>
 
-    <section class="full-grid">
+    <section class="full-grid card-sections">
         <section class="full-grid-item">
-            <h1>Scroll</h1>
-            <p>This hides the content outside the box, but it offers scrollbars to scroll inside the box and view the content.</p>
-            <p>Keep in mind that you will always get both horizontal + vertical scrollbars no matter what, even if the content requires only one scrollbar.</p>
-            <article>
+            <article class="title">
+                <h1>Scroll</h1>
+                <p>This hides the content outside the box, but it offers scrollbars to scroll inside the box and view the content.</p>
+                <p>Keep in mind that you will always get both horizontal + vertical scrollbars no matter what, even if the content requires only one scrollbar.</p>
+            </article>
+            <article class="code">
                 <h5>CODE</h5>
                 <ul>
-                    <li>.box{</li>
-                    <li>overflow: scroll;</li>
+                    <li><span>.box</span>{</li>
+                    <li class="indent">overflow: scroll;</li>
                     <li>}</li>
                 </ul>
             </article>
-            <article>
+            <article class="browser-scroll">
                 <h5>BROWSER</h5>
-                <div>
+                <div id="scroll">
                     <img src="img/example/flow.jpg" alt="Water over Rocks">
                     <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat
                         toast, water.</p>
@@ -114,21 +120,23 @@
         </section>
     </section>
 
-    <section class="full-grid">
+    <section class="full-grid card-sections">
         <section class="full-grid-item">
-            <h1>auto</h1>
-            <p>This functions similarly to the scroll value, but only surfaces scrollbars if you need them.</p>
-            <article>
+            <article class="title">
+                <h1>auto</h1>
+                <p>This functions similarly to the scroll value, but only surfaces scrollbars if you need them.</p>
+            </article>
+            <article class="code">
                 <h5>CODE</h5>
                 <ul>
-                    <li>.box{</li>
-                    <li>overflow: auto;</li>
+                    <li><span>.box</span>{</li>
+                    <li class="indent">overflow: auto;</li>
                     <li>}</li>
                 </ul>
             </article>
-            <article>
+            <article class="browser-auto">
                 <h5>BROWSER</h5>
-                <div>
+                <div id="auto">
                     <img src="img/example/flow.jpg" alt="Water over Rocks">
                     <p>Lorem Khaled Ipsum is a major key to success. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! You smart, you loyal, you a genius. Egg whites, turkey sausage, wheat
                         toast, water.</p>
